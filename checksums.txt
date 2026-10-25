@@ -25,3 +25,7 @@ f006e4d962d3d37dcf506b99703239fe9af05f32b0a31aee8281f71995aba64f  ipvault-0.2.2-
 1c6ba1be56f457b2500eb77acc2903f31220ddf75ba5cfd5a73c8a53f0746b0a  ipvault-0.3.0-aarch64-unknown-linux-musl.tar.gz
 3df6755279b4caf473026ea67f6dbfc721bd38d98a9c2a4b20a545fe5bfaa7c6  ipvault-0.3.0-x86_64-apple-darwin.tar.gz
 af6264ef0851bd11173749046509b3ca8b64445b88ec593ce1ad4b0012fd1d3d  ipvault-0.3.0-x86_64-unknown-linux-musl.tar.gz
+9b7ff265c7a7c9af64a10f0acfead8fd096f39e364f6e91b7e1c7638ed092fc5  ipvault-0.3.1-aarch64-apple-darwin.tar.gz
+bf5336cf07888cee6cb147520954065fc3e582a2e2ae46c36b28f2a0cf82d91a  ipvault-0.3.1-aarch64-unknown-linux-musl.tar.gz
+d35bd2a423dee3e1b19f09ff74c95b75e92b97654c5b1dc7e666f66c5b4b9e07  ipvault-0.3.1-x86_64-apple-darwin.tar.gz
+1621c182ad406497d7b7eac1e601ca9919541311809d59594ec47c20c5994cd3  ipvault-0.3.1-x86_64-unknown-linux-musl.tar.gz

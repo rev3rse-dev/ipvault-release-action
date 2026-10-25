@@ -44,7 +44,7 @@ inputs:
     description: >-
       ipvault CLI version to download. Its checksums must be pinned in this version of the
       action (checksums.txt), so pin the action by commit SHA and the binary is pinned with it.
-    default: "0.3.0"
+    default: "0.3.1"
   ipvault-path:
     description: Use this ipvault binary instead of downloading one (one you built, or for testing the action).
     default: ""

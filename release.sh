@@ -30,7 +30,7 @@ if [[ -n "$VERIFY_PACKAGE" ]]; then
     echo "report=$out/verify.json"
     echo "junit=$out/verify.junit.xml"
   } >> "$GITHUB_OUTPUT"
-  [[ $code == 1 ]] && echo "::error::the package ships a plaintext input or lacks a sealed output; see the job summary"
+  [[ $code == 1 ]] && echo "::error::the package check failed: plaintext input, missing sealed output, or incomplete archive inspection; see the job summary"
   exit "$code"
 fi
 

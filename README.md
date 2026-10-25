@@ -119,8 +119,10 @@ failed, 2 error or refusal), `report`, `junit`.
 Every sealed output in the manifest is in the package, byte for byte (against the receipt), and
 no plaintext input is, as a whole file or as a fragment: it samples one window per 4 KiB of each
 input, so any shipped fragment of 8 KiB or more of an input up to 16 MiB is found, and larger
-inputs are sampled more sparsely. Nested archives are opened. Names inside the package are
-untrusted, so its report is printed with workflow commands suspended.
+inputs are sampled more sparsely. Nested archives are opened up to four levels. If an archive
+cannot be read or exceeds that depth, verification fails with `complete: false` and the unread
+paths in `skipped`. Names inside the package are untrusted, so its report is printed with workflow
+commands suspended.
 
 ---
 
